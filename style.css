@@ -3,7 +3,7 @@ body {
   margin: 0; 
 }
 header {
-    background: blue;
+    background-image: url(Images/3-18.jpg);
     padding: 25px;
     text-align: center;
 }
