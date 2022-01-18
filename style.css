@@ -3,5 +3,7 @@ body {
   margin: 0; 
 }
 header {
-    background-image: ;
+    background: blue;
+    padding: 25px;
+    text-align: center;
 }
