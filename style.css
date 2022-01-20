@@ -1,8 +1,9 @@
 body {
   padding: 10px; 
-  margin: 0;
   height: 100%;
   font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px; 
+  border: 3px solid rgb(16, 165, 235);
    
 }
 header {
@@ -29,16 +30,18 @@ li {
   color:rgb(161, 56, 21)
 }
 .main {
-  height:3250px;
+  height:auto;
+  width: 1100px;
+  padding: 2px;
   background-color: #d2dbec;
   text-align: justify; /*заполнение текстом*/
 }
 .sidebar {
   border: 1px solid red; /* Толщина рамки в пикселах,тип границы (в данном случае сплошная линия) и цвет линии */
-  padding: 2px;
   float:right;
-  width:300px;
-  height:1100;
+  width: 400px;
+  padding: 2px;
+  height:auto;
   background-color:tan;
   text-align: justify;
     }
@@ -51,7 +54,7 @@ li {
    text-align: center;
  }
  .tron {
-   margin-left:570px;
+   text-align: center;
    color:rgb(89, 128, 128);
  }
  a  { /*цвет сслыки до нажатия*/
@@ -68,7 +71,7 @@ li {
   text-align: center;
 }
 .egor {
-  margin-left:670px;
+  text-align: center;
    color:rgb(89, 128, 128);
 }
 
