@@ -1,12 +1,74 @@
 body {
-  padding: 0; 
-  margin: 0; 
+  padding: 10px; 
+  margin: 0;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+   
 }
 header {
-    background-image: url(Images/3-18.jpg);
-    padding: 25px;
+    background-image: url(Images/Снимок.JPG);
+    padding: 10px;
     text-align: center;
+    color: rgb(209, 14, 14);
 }
-.strana {
+h1 {
+  font-size: 80px;
+}
+h2, h3 {
+  text-align: center;
+  font-style: italic;
+  color: rgb(241, 15, 64);
+}
+p  {
+  font-size: 20px;
+}
+li {
   display: inline;
+  font-size:30px;
+  margin-right: 82px;
+  color:rgb(161, 56, 21)
 }
+.main {
+  height:3250px;
+  background-color: #d2dbec;
+  text-align: justify; /*заполнение текстом*/
+}
+.sidebar {
+  border: 1px solid red; /* Толщина рамки в пикселах,тип границы (в данном случае сплошная линия) и цвет линии */
+  padding: 2px;
+  float:right;
+  width:300px;
+  height:1100;
+  background-color:tan;
+  text-align: justify;
+    }
+  .footer {
+    background-color:rgb(97, 81, 189);
+    height:150px;
+    text-align: right;
+    }
+ .alan {
+   text-align: center;
+ }
+ .tron {
+   margin-left:570px;
+   color:rgb(89, 128, 128);
+ }
+ a  { /*цвет сслыки до нажатия*/
+   color:rgb(56, 155, 155);
+ }
+ a:active { /*цвет активной ссылки*/
+  color:rgb(168, 14, 45);
+ }
+ a:hover {   /*цвет нажатой ссылки*/
+  background: #f0ed35; /* Цвет фона под ссылкой */ 
+  color: #f8185b; /* Цвет ссылки */ 
+  }
+.znak {
+  text-align: center;
+}
+.egor {
+  margin-left:670px;
+   color:rgb(89, 128, 128);
+}
+
