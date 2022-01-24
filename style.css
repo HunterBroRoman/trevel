@@ -74,4 +74,15 @@ li {
   text-align: center;
    color:rgb(89, 128, 128);
 }
-
+input:focus{ 
+  background-color: khakis;
+  color: brown; 
+  font-size: 18px;  
+  border: 2px solid orange; 
+  } 
+img {
+  border: 2px solid green; 
+}
+.zaraz  {
+  text-align: right;
+}
