@@ -14,10 +14,10 @@ header {
 }
 h1 {
   font-size: 80px;
-  letter-spacing : 2px;
-}
-h2, h3 {
+  }
+h2 {
   text-align: center;
+  letter-spacing : 2px;
   font-style: italic;
   color: rgb(241, 15, 64);
 }
