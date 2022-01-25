@@ -28,6 +28,8 @@ h2 {
 h3 {
   text-align: center;
   text-decoration:underline;/* добавляем декорирование текста (линия снизу) */
+  text-transform : uppercase; /* преобразуем все символы в верхний регистр */
+  color:rgb(230, 28, 28)
 }
 p  {
   font-size: 20px;
