@@ -17,7 +17,8 @@ h1 {
   }
 h2 {
   text-align: center;
-  letter-spacing : 2px;
+  letter-spacing : 2px;/* расширяет расстояние между буквами */
+  word-spacing : 1em; /* определяем расстояние между словами (1em) */
   font-style: italic;
   color: rgb(241, 15, 64);
 }
