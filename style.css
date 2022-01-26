@@ -12,25 +12,26 @@ header {
     text-align: center;
     color: rgb(209, 14, 14);
 }
+h1,h2,h3 {
+  text-align: center;
+}
 h1 {
   font-size: 80px;
-  text-align: center;
-
   }
 h2 {
-  text-align: center;
   letter-spacing : 2px;/* расширяет расстояние между буквами */
   word-spacing : 1em; /* определяем расстояние между словами (1em) */
   font-style: italic;
   color: rgb(241, 15, 64);
   text-decoration:underline;
+  text-shadow: 1px 1px 4px #000; /*  текстовая тень*/	
 }
 h3 {
-  text-align: center;
   text-decoration:underline;/* добавляем декорирование текста (линия снизу) */
   text-transform : uppercase; /* преобразуем все символы в верхний регистр */
   color:rgb(230, 28, 28)
-}
+  
+   }
 p  {
   font-size: 20px;
   text-indent: 40px;
@@ -64,6 +65,7 @@ li {
     }
  .alan {
    text-align: center;
+   box-shadow:  0 0 0 5px #fff, 0 0 10px 10px #000;
  }
  .tron {
    text-align: center;
@@ -72,12 +74,11 @@ li {
  a  { /*цвет сслыки до нажатия*/
    color:rgb(56, 155, 155);
  }
- a:active { /*цвет активной ссылки*/
-  color:rgb(168, 14, 45);
- }
+  
  a:hover {   /*цвет нажатой ссылки*/
-  background: #f0ed35; /* Цвет фона под ссылкой */ 
+  background: #b9b719; /* Цвет фона под ссылкой */ 
   color: #f8185b; /* Цвет ссылки */ 
+  border: 2px groove rgb(209, 24, 24);
   }
 .znak {
   text-align: center;
@@ -85,6 +86,7 @@ li {
 .egor {
   text-align: center;
    color:rgb(89, 128, 128);
+   text-shadow: -2px 3px 1px #777, 1px 2px 3px rgb(231, 20, 20); /*радужная тень*/
 }
 input:focus{ 
   background-color: khakis;
@@ -95,6 +97,6 @@ input:focus{
 img {
   border: 2px solid green; 
 }
-.zaraz  {
+.zakaz  {
   text-align: right;
 }
