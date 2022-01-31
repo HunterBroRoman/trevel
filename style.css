@@ -49,14 +49,18 @@ li {
   background-color: #d2dbec;
   text-align: justify; /*заполнение текстом*/
 }
-.sidebar {
-  border: 1px solid red; /* Толщина рамки в пикселах,тип границы (в данном случае сплошная линия) и цвет линии */
+.fixed {
   float:right;
   width: 400px;
   padding: 2px;
-  height:auto;
-  background-color:tan;
+  height:100%;
+  background-color:rgb(241, 143, 15);
   text-align: justify;
+  transition-duration: 2.5s;/*задержка изминения цвета*/
+    }
+    .fixed :hover {
+      background-color: aquamarine;
+      transition-duration: 2.5s;/*задержка изминения цвета*/
     }
   .footer {
     background-color:rgb(97, 81, 189);
